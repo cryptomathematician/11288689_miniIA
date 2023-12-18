@@ -3,6 +3,8 @@ const mongoose = require('mongoose')
 const Visitation = require('./models/visitationModel')
 const Register = require('./models/registerModel')
 const Information = require('./models/registerModel')
+const listofPatients = require('./models/listofPatients')
+const detailsofPatient = require('./models/detailsofPatient')
 const app = express()
 
 
