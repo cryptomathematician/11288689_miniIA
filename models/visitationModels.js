@@ -4,16 +4,16 @@ const  visitationSchema = mongoose.Schema(
     {
         encounterType: {
             type: String,
-            reuquired: [true, "Please enter a product name"]
+            required: [true, "Please enter a product name"]
         },
         patientID: {
             type: Number,
-            reuired: true,
+            required: true,
             default: 0
         },
         dateTime:{
             type: Number,
-            reuired: true,
+            required: true,
         },
     },
     {
