@@ -48,6 +48,6 @@ const  registerSchema = mongoose.Schema(
     }
 )
 
-const Visitation= mongoose.model('Visitaion', visitationSchema)
+const Register= mongoose.model('Register', registerSchema)
 
-module.exports = Visitation;
+module.exports = Register;
